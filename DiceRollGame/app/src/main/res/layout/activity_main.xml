@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/dice"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/die1"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FF2F39"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.5"
+                android:textColor="#FF2F39"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="1 : "/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#FF2F39"
+                android:id="@+id/d_1"
+                android:textSize="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.5"
+                android:textColor="#FF2F39"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="2 : "/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:textColor="#FF2F39"
+
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/d_2"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.5"
+                android:textColor="#FF2F39"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="3 : "/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#FF2F39"
+
+                android:id="@+id/d_3"
+                android:textSize="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.5"
+                android:textColor="#FF2F39"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="4 : "/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#FF2F39"
+
+                android:id="@+id/d_4"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.5"
+                android:textColor="#FF2F39"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="5 : "/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#FF2F39"
+                android:id="@+id/d_5"
+                android:textSize="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.5"
+                android:textColor="#FF2F39"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:text="6 : "/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:textColor="#FF2F39"
+
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/d_6"
+                android:textSize="25dp"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Reset"
+            android:id="@+id/reset"
+            android:layout_marginTop="5dp"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:background="#FF2F39"/>
+    </LinearLayout>
+
+</LinearLayout>
